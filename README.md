@@ -16,4 +16,3 @@ warning:
 - **should be able to delete a transaction**: Para que esse teste passe, você deve permitir que a sua rota de delete exclua uma transação, e ao fazer a exclusão, ele retorne uma resposta vazia, com status 204.
 - **should be able to import transactions**: Para que esse teste passe, sua aplicação deve permitir que seja importado um arquivo csv, contendo o seguinte modelo. Com o arquivo importado, você deve permitir que seja criado no banco de dados todos os registros e categorias que estavam presentes nesse arquivo, e retornar todas as transactions que foram importadas.
 
-Dica: Caso você tenha dificuldades com a leitura de CSV, temos um guia no Notion.
